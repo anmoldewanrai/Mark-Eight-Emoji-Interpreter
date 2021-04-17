@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 1.5em;
+  color: #000;
+  text-align: center;
+  min-height: 40px;
+  min-width: auto;
+}
+
+.meaning {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.down-finger {
+  margin-left: 5px;
+  font-size: 2rem;
+}
+
+.rightFinger {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.emojiList {
+  font-size: 2.2rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.emojiList:hover {
+  background: #000;
+  border-radius: 4px;
+}
+
+.github,
+.codesandbox {
+  margin: 0 4px;
+}
+
+a {
+  color: #dcdcdc;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.footer {
+  margin-top: 2rem;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  color: #d2d2d2;
+  font-size: 1.1rem;
+}
